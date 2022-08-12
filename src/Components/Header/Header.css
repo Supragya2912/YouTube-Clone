@@ -1,0 +1,59 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color:#fafafa;
+    font-size: 30px;
+}
+
+.header__logo {
+    height: 30px;
+    object-fit: contain;
+    margin-left: 10px;
+}
+
+.header__center {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    border: 1px solid lightgray
+}
+
+.header__searchbutton {
+    width: 50px !important;
+    border-color: #fafafa;
+    border-left: 1px solid lightgray;
+    color: gray;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    fill: #fafafa;
+}
+
+.header__icon {
+    margin-right: 12px;
+    border-color: #fafafa;
+   color: grey;
+}
+
+.header__center > input {
+    flex: 1;
+    border: none;
+    outline: none;
+}
+.youtube{
+   font-weight: bold;
+   font-size: 25px;
+    position: absolute;
+    top: 8px;
+    left: 91px;
+}
